@@ -4,4 +4,8 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['scontent-mad1-1.cdninstagram.com'],
+  },
+}

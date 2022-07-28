@@ -21,7 +21,7 @@ export default function Home({ title = "Cibbarta" }) {
                 alt={opera.name}
                 key={opera.key}
                 width={500}
-                height={500}
+                height={759}
               />
             )
           })}

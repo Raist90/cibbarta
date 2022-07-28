@@ -1,8 +1,10 @@
+import { StyledOpera } from "./styles/Opera.Styled"
+
 const Opera = ({ children }) => {
   return (
-    <div>
+    <StyledOpera className="operaContainer">
       {children}
-    </div>
+    </StyledOpera>
   )
 }
 
