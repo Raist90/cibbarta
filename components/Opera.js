@@ -1,4 +1,4 @@
-import { StyledOpera } from "./styles/Opera.Styled"
+import { StyledOpera } from "./styles/Opera.styled"
 
 const Opera = ({ children }) => {
   return (
