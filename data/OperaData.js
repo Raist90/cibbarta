@@ -38,5 +38,15 @@ export const OperaData = [
         name: "Spritz con aperol o campari?",
         url: "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/287059383_2182768101901093_3485990900390364193_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=4ZHp5mwT3hoAX8lyBng&tn=dZHhGsV_UzBaIJJ1&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjg1ODk4NjYzMjU5MTEzMTQyMg%3D%3D.2-ccb7-5&oh=00_AT8HlG4sk7cqICOwCK4em-CsNsPb48xFyJhjZ_0DdEmGOQ&oe=62E8B2CD&_nc_sid=30a2ef",
         key: 8
+    },
+    {
+        name: "I mangiatori di patate brave, bravissime",
+        url: "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/285989714_1025692375006563_2145781485659101487_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=eFT2Ao_dH-wAX9h9fj3&tn=dZHhGsV_UzBaIJJ1&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjg1Mzg4NzA3MzUyNjQ4OTM4NQ%3D%3D.2-ccb7-5&oh=00_AT-JMeWlv3qqLaoFQ5dEqHlkAh5sJG2RJexPIa8kxZzJzg&oe=62E8E251&_nc_sid=30a2ef",
+        key: 9
+    },
+    {
+        name: "Monnalisa ed il torroncino",
+        url: "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/284647747_733907424723959_848137522673623069_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=H9fq5H55lGIAX81j8P-&tn=dZHhGsV_UzBaIJJ1&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjg0OTUzMzEyMDUxNDkyMzgwMQ%3D%3D.2-ccb7-5&oh=00_AT_KTialij-8fwVzb6D1v8dnWXsUmCjrfSSV8IQJoFDXkQ&oe=62EA532F&_nc_sid=30a2ef",
+        key: 10
     }
 ]
