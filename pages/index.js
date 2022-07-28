@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 import Opera from '../components/Opera'
 import { OperaData } from '../data/OperaData'
 import Image from 'next/image'
@@ -13,6 +14,8 @@ export default function Home({ title = "Cibbarta" }) {
       </Head>
 
       <main>
+        <Header />
+
         <Opera>
           {OperaData.map((opera) => {
             return (

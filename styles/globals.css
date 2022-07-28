@@ -18,3 +18,7 @@ body {
   object-fit: cover;
   object-position: center;
 }
+
+.logoContainer {
+  flex: 1;
+}
