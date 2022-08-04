@@ -9,8 +9,8 @@ const Header = () => {
                 <Image
                     src={logo}
                     alt="Cibbarta logo"
-                    width={270}
-                    height={88}
+                    width={135}
+                    height={44}
                 />
             </div>
         </StyledHeader>
