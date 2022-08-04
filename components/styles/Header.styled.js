@@ -9,4 +9,5 @@ export const StyledHeader = styled.header`
     z-index: 2;
     text-align: center;
     border: 1px solid #000;
+    padding: 5px;
 `
