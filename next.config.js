@@ -6,6 +6,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['scontent-mad1-1.cdninstagram.com'],
+    domains: ['www.dropbox.com'],
   },
 }
