@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Opera from '../components/Opera'
 import { OperaData } from '../data/OperaData'
 import Image from 'next/image'
+import Footer from '../components/Footer'
 
 export default function Home({ title = "Cibbarta" }) {
   return (
@@ -30,6 +31,8 @@ export default function Home({ title = "Cibbarta" }) {
           })}
         </Opera>
       </main>
+
+      <Footer />
     </div>
   )
 }

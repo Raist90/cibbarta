@@ -8,6 +8,6 @@ export const StyledHeader = styled.header`
     top: 0;
     z-index: 2;
     text-align: center;
-    border: 1px solid #000;
+    border-bottom: 1px solid #000;
     padding: 5px;
 `
