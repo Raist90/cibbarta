@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
     return (
-        <Html>
+        <Html lang="it">
             <Head>
                 <meta name="description" content="Sito web di Cibbarta" />
                 <link rel="icon" href="/favicon.ico" />
