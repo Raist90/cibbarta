@@ -12,8 +12,13 @@ export const StyledAboutContainer = styled.div`
     line-height: 1.4;
 
     @media (min-width: 320px) and (max-width: 480px) {
-        font-size: 1.2rem;
-        line-height: 1.4;
+        h1 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
     }
 `
 
