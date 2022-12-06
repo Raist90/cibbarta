@@ -4,7 +4,8 @@ export const StyledHeader = styled.header`
     width: 100%;
     height: 60px;
     display: flex;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.9);
+
     position: fixed;
     top: 0;
     z-index: 2;

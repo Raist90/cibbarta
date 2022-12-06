@@ -1,15 +1,20 @@
 import styled from "styled-components"
 
 export const StyledAboutContainer = styled.div`
-    width: 100vw;
-    min-height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: #1b1b1b;
-    color: #fff;
+    background: #fff;
+    color: #1a1a1a;
     padding: 60px 0;
+    font-size: 1.4rem;
+    line-height: 1.4;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
 `
 
 export const StyledAbout = styled.div`
@@ -21,4 +26,22 @@ export const StyledAbout = styled.div`
 
 export const StyledAboutText = styled.div`
    
+`
+
+export const StyledPortraitPicCol = styled.div`
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: 80%;
+    height: 500px;
+    margin: 40px auto;
+    position: relative; // because it contains the image
+    box-shadow: 0 8px 6px -6px black;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 100%;
+    }
+
+    img {
+        object-fit: cover;
+    }
 `
