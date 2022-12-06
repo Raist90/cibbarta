@@ -7,7 +7,7 @@ import {
 import Image from 'next/image'
 import Footer from './Footer'
 
-const About = () => {
+const About = ({ title = "Chi sono" }) => {
     return (
         <>
             <StyledAboutContainer>
@@ -26,7 +26,8 @@ const About = () => {
                     <StyledPortraitPicCol>
                         <Image
                             src='https://res.cloudinary.com/duniwzylb/image/upload/v1670321242/cibbarta/cibbarta-portrait_ipro5i.jpg'
-                            layout='fill'
+                            alt="Cibbarta portrait"
+                            fill sizes="100%"
                         />
                     </StyledPortraitPicCol>
 

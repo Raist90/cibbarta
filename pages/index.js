@@ -18,13 +18,13 @@ export default function Home({ title = "Cibbarta" }) {
         <Opera>
           {OperaData.map((opera) => {
             return (
-              <Image
-                src={opera.url}
-                alt={opera.name}
-                key={opera.key}
-                width={500}
-                height={759}
-              />
+              <div key={opera.key}>
+                <Image
+                  src={opera.url}
+                  alt={opera.name}
+                  fill sizes="100%"
+                />
+              </div>
             )
           })}
         </Opera>

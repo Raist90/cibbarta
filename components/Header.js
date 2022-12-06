@@ -17,14 +17,12 @@ const Header = () => {
             <StyledContainer>
                 <StyledLogo>
                     <Link href='/' passHref>
-                        <a>
-                            <Image
-                                src={logo}
-                                alt="Cibbarta logo"
-                                width={135}
-                                height={44}
-                            />
-                        </a>
+                        <Image
+                            src={logo}
+                            alt="Cibbarta logo"
+                            width={135}
+                            height={44}
+                        />
                     </Link>
                 </StyledLogo>
                 <StyledNav>
