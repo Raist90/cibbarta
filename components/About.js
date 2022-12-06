@@ -25,8 +25,7 @@ const About = () => {
 
                     <StyledPortraitPicCol>
                         <Image
-                            src='/../public/img/cibbarta-portrait.png'
-                            alt='cibbarta portrait'
+                            src='https://res.cloudinary.com/duniwzylb/image/upload/v1670321242/cibbarta/cibbarta-portrait_ipro5i.jpg'
                             layout='fill'
                         />
                     </StyledPortraitPicCol>
