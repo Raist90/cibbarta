@@ -48,3 +48,11 @@ a:hover {
   object-fit: cover;
   object-position: center;
 }
+
+.contienimi {
+  max-width: 80%;
+}
+
+.contienimi img {
+  width: 100%;
+}
