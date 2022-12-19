@@ -38,8 +38,8 @@ export default function Home({ title = "Cibbarta" }) {
           sources={
             OperaData.map((props) => {
               return (
-                <span>
-                  <img key={props.key} src={props.url} />
+                <span key={props.key}>
+                  <img src={props.url} />
                 </span>
               )
             })
