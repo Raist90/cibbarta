@@ -4,8 +4,12 @@ import Opera from '../components/Opera'
 import { OperaData } from '../data/OperaData'
 import Image from 'next/image'
 import Footer from '../components/Footer'
+import { useState } from 'react'
+import FsLightbox from 'fslightbox-react'
 
 export default function Home({ title = "Cibbarta" }) {
+  const [toggler, setToggler] = useState(false);
+
   return (
     <>
       <Head>
@@ -20,6 +24,7 @@ export default function Home({ title = "Cibbarta" }) {
             return (
               <div key={opera.key}>
                 <Image
+                  onClick={() => setToggler(!toggler)}
                   src={opera.url}
                   alt={opera.name}
                   fill sizes="100%"
@@ -28,6 +33,18 @@ export default function Home({ title = "Cibbarta" }) {
             )
           })}
         </Opera>
+        <FsLightbox
+          toggler={toggler}
+          sources={
+            OperaData.map((props) => {
+              return (
+                <span>
+                  <img key={props.key} src={props.url} />
+                </span>
+              )
+            })
+          }
+        />
       </main>
 
       <Footer />

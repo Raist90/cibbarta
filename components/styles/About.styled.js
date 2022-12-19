@@ -44,6 +44,7 @@ export const StyledPortraitPicCol = styled.div`
     box-shadow: 0 8px 6px -6px black;
     @media (min-width: 320px) and (max-width: 480px) {
         width: 100%;
+        height: 300px;
     }
 
     img {
