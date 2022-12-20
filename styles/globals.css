@@ -63,3 +63,15 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
+
+#lightbox-img {
+  height: 500px;
+  width: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #lightbox-img {
+    max-width: 200px;
+    height: auto;
+  }
+}

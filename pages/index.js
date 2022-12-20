@@ -45,7 +45,7 @@ export default function Home({ title = "Cibbarta" }) {
 
   const images = OperaData.map(item => item.url)
   const imageCards = images.map((image, index) => (
-    <div key={OperaData[index].key}>
+    <div className='images-container' key={OperaData[index].key}>
       <Image onClick={() => showImage(image)} src={image} fill sizes="100%" alt="immagine" />
     </div>
   ));
@@ -68,6 +68,7 @@ export default function Home({ title = "Cibbarta" }) {
             <div id="lightbox" onClick={hideLightBox}>
               <button onClick={showPrev}>&#8592;</button>
               <Image
+                id="lightbox-img"
                 src={imageToShow}
                 alt="immagine"
                 width={400}
