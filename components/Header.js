@@ -28,7 +28,7 @@ const Header = () => {
                 <StyledNav>
                     <StyledUl>
                         <StyledLi><Link href="/chi-sono">Chi sono</Link></StyledLi>
-                        <StyledLi>3d Gallery</StyledLi>
+                        <StyledLi><Link href="/gallery">3d Gallery</Link></StyledLi>
                     </StyledUl>
                 </StyledNav>
             </StyledContainer>

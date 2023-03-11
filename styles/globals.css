@@ -1,3 +1,8 @@
+:root {
+  --main-font: 'DM Sans', sans-serif;
+  --title-font: 'Space Grotesk', sans-serif;
+}
+
 html,
 body {
   padding: 0;
@@ -7,7 +12,7 @@ body {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--main-font);
 }
 
 * {
@@ -20,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+  font-family: var(--title-font);
 }
 
 h1 {
