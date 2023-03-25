@@ -27,7 +27,7 @@ const Header = () => {
                 </StyledLogo>
                 <StyledNav>
                     <StyledUl>
-                        <StyledLi><Link href="/chi-sono">Chi sono</Link></StyledLi>
+                        <StyledLi><Link href="/chi-sono">About me</Link></StyledLi>
                         <StyledLi><Link href="/gallery">3d Gallery</Link></StyledLi>
                     </StyledUl>
                 </StyledNav>
