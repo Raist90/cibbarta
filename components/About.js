@@ -101,24 +101,8 @@ const About = () => {
             <p>Ho tante passioni nella vita e non smetto mai di sognare.</p>
 
             <p>
-              Sono nata e cresciuta a Reggio di Calabria, dove ho frequentato
-              scuola ed Università.
+              Sono nata e cresciuta a Reggio di Calabria, ho vissuto a Bologna 10 anni, poi a Malaga e adesso vivo a Stoccolma.
             </p>
-
-            <p>
-              Poi a 24 anni mi sono trasferita a Bologna e ci ho vissuto per 10
-              anni, prima per continuare gli studi all'Alma Mater poi per
-              lavoro.
-            </p>
-
-            <p>
-              Da qualche tempo ho lasciato Bologna ed il lavoro a tempo
-              indeterminato in Banca che avevo lì per seguire nuovamente i miei
-              sogni. Molti mi hanno dato della “pazza” ma io voglio provarci
-              fino alla FINE.
-            </p>
-
-            <p>Fino alla fine 🙂</p>
 
             <p>Seguitemi sul mio canale Instagram: @cibbarta</p>
           </StyledAboutText>
