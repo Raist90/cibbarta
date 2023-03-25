@@ -10,7 +10,9 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <>
-      <StyledAboutContainer style={{borderBottom: '1px solid rgba(0,0,0,.4)'}}>
+      <StyledAboutContainer
+        style={{ borderBottom: "1px solid rgba(0,0,0,.4)" }}
+      >
         <StyledAbout>
           <StyledAboutText>
             <h1 className="text-center">About me</h1>
@@ -30,7 +32,7 @@ const About = () => {
             </p>
 
             <p>
-              From that moment I couldn’t think of art without food and vice
+              From that moment I couldn't think of art without food and vice
               versa.
             </p>
           </StyledAboutText>
@@ -57,21 +59,23 @@ const About = () => {
         </StyledAbout>
       </StyledAboutContainer>
 
-      <StyledAboutContainer style={{paddingTop: '30px'}}>
+      <StyledAboutContainer style={{ paddingTop: "30px" }}>
         <StyledAbout>
           <StyledAboutText>
-            <h1 className="text-center" style={{marginTop: 0}}>Chi Sono</h1>
+            <h1 className="text-center" style={{ marginTop: 0 }}>
+              Chi Sono
+            </h1>
             <p>Eccomi qua, Cibbarta:</p>
 
             <p>
               il mio vero nome è Emilia. Questo è il mio portfolio in cui mi
-              diletto con l’arte ed il cibo creando delle “opere” definite “cibo
+              diletto con l'arte ed il cibo creando delle “opere” definite “cibo
               su tela“.
             </p>
 
             <p>
-              L’idea mi è venuta una mattina di aprile durante il lockdown.
-              Facevo colazione un po’ sovrappensiero con compagni di viaggio
+              L'idea mi è venuta una mattina di aprile durante il lockdown.
+              Facevo colazione un po' sovrappensiero con compagni di viaggio
               chiamati ansia, paura e stress per la pandemia in corso. Un
               turbinio di pensieri negativi interrotti da una stellina di
               zucchero firmata Pan di stelle, caduta sulla mia tovaglietta
@@ -79,7 +83,7 @@ const About = () => {
             </p>
 
             <p>
-              Da quel momento non sono riuscita più a pensare all’arte senza
+              Da quel momento non sono riuscita più a pensare all'arte senza
               cibo e viceversa.
             </p>
           </StyledAboutText>
@@ -103,7 +107,7 @@ const About = () => {
 
             <p>
               Poi a 24 anni mi sono trasferita a Bologna e ci ho vissuto per 10
-              anni, prima per continuare gli studi all’Alma Mater poi per
+              anni, prima per continuare gli studi all'Alma Mater poi per
               lavoro.
             </p>
 
